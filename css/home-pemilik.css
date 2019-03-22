@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #f9f9f9 url(../img/page-bg-1.jpg);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navigation {
+ 	margin-top: 40px;
+}
+.navigation .navbar {
+	float:right;
+	border-bottom: 1px dotted #a9a9a9;
+	border-top: 1px dotted #a9a9a9;
+}
+.navbar .nav > li > a {
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-shadow: none;
+	text-transform:uppercase;
+	font-size:12px;
+	padding: 13px 15px 11px;
+}
+.dropdown-toggle{
+	color: #000;
+}
+li a{
+	color: #000;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	color:#FFF;
+	background-color:#d8450b;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  	color:#FFF;
+	background-color:#d8450b;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+.dropdown-menu{
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-transform:uppercase;
+	font-size:13px;
+	padding: 10px;
+	margin-left: -50px;
+	background-color: #383838;
+	border: none;
+	*border-right-width: none;
+	*border-bottom-width: none;
+	-webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+	-webkit-background-clip: none;
+     -moz-background-clip: none;
+          background-clip: none;
+}
+.navbar .nav > li > .dropdown-menu:before {
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-bottom-color: none;
+}
+.dropdown-menu a {
+	color: #ababab;
+	border-bottom:1px solid #474747;
+	padding: 10px 10px;
+	margin:0px 10px;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #f9f9f9;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: none;
+  filter: none;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+.background{
+	background-image: url(../img/001.00-copy-1.jpg);
+	background-size: cover;
+	background-repeat:  no-repeat;
+	background-position: center;
+}
+section{
+	margin-top: 20px;
+	padding: 20px 0px 50px;
+}
+section .col-lg-4 h3{
+	font-family: "Oswald", sans-serif;
+}
+.lorem1{
+	margin-top: 20px;
+	line-height: 25px;
+	font-size: 17px;
+	font-family: arial;
+}
+header{
+	border-bottom: 1px solid lightgrey;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+}
+.row2{
+	margin-top: 40px;
+	border-bottom: 1px dotted #a9a9a9;
+	border-top: 1px dotted #a9a9a9;
+}
+.fa-map-marker-alt{
+	width: 40px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 25px;
+	display: inline-block;
+	z-index: 1;
+	padding:
+}
+.row2 input[type=text]{
+	margin-left: -40px;
+	padding-left: 40px;
+	border-radius: 0px;
+}
+.col-lg-3{
+	padding: 10px;
+}
+.row3{
+	margin-top: 40px;
+}
+.bg{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/KONTRAKAN.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bungkus-img{
+	border: 1px solid grey;
+}
+
+.harga{
+	position: absolute;
+	top: 34%;
+	background-color: #d8450b;
+	color: #fff;
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 5px 10px;
+}
+.caption .col-lg-6 p{
+	font-size: 13px;
+}
+.row3 .caption{
+	background-color: #fff;
+}
+.caption{
+	padding: 10px 5px 10px 10px;;
+}
+.ruang{
+	font-size: 11px;
+	padding: 5px;
+	width: 80px;
+	margin-left: 70px;
+	background-color: #edae10;
+	text-align: center;
+}
+.address{
+	color: grey;
+	font-size: 14px;
+}
+.row5 .col-lg-12 ~ .col-lg-12{
+	margin-top: 10px;
+}
+.row4 .col-md-6 img{
+	margin-top: -5px;
+}
+.bungkus-img{
+	background-color: #fff;
+}
+.fasilitas{
+	padding: 10px;
+	text-align: center;
+}
+.row7 h3{
+	text-shadow: 3px 3px black;
+	color: #fff;
+	margin-bottom: 0px;
+}
+.row7{
+	margin-top: 60px;
+	background-color: #d8450b;
+	padding: 15px;
+}
+.selengkapnya{
+	background-color: #edae10;
+	padding: 5px 10px;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.row8{
+	margin-top: 20px;
+}
+.container + .container-fluid{
+	background-color: #d8450b;
+	margin-top: 50px;
+}
+.pemilik-kos{
+	text-align: center;
+	width: 300px;
+	margin: auto;
+	padding: 50px;
+	background-color: white;
+	box-shadow: 3px 3px grey;
+	border-radius: 20px;
+}
+.pengguna-kos{
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+	background-color: white;
+	box-shadow: 3px 3px grey;
+	border-radius: 20px;
+}
+.row9{
+	max-width: 1000px;
+	margin: auto;
+	padding: 90px 0px;
+}
+.container-fluid + .container{
+	margin-top: 70px;
+}
+.row10 .col-lg-12{
+	background-color: #db450b;
+	padding: 20px;
+}
+.row10 h3{
+	text-shadow: 3px 3px black;
+	color: #fff;
+	margin-bottom: 0px;
+}
+.row11{
+	margin-top: 30px;
+}
+.row11 img{
+	border-radius: 20px;
+}
+.img-kota{
+	width: 300px;
+	border-radius: 20px;
+}
+.nama-kota{
+	width: 300px;
+	height: 225px;
+	position: absolute;
+	top: 0;
+	margin-left: 25px;
+	background-color: white;
+	text-align: center;
+	padding: 100px;
+	border-radius: 20px;
+	opacity: 0;
+	box-shadow: 2px 2px 2px #d8450b;
+}
+.nama-kota label{
+	text-shadow: 1.5px 1.5px 3px grey;
+	font-style: italic;
+}
+.nama-kota:hover{
+	opacity: 1;
+	transition-duration: 1.5s;
+	cursor: pointer;
+}
+footer{
+	background-color: grey;
+	color: #fff;
+}
+.row12{
+	width: 900px;
+	margin: auto;
+}
+.img-kota{
+	text-align: center;
+	margin: auto;
+}
+.copyright{
+	text-align: center;
+	margin: auto;
+}
+.row12{
+	padding: 20px 0px;
+}
+header#masthead.site-header.navbar-fixed {
+position: fixed;
+z-index: 999;
+width: 100%;
+top: 0px; 
+background-color: #fff;
+}
+.tinggi_logo{
+	height: 100px;
+}
+.navigation2{
+	margin-top: 28px;
+}
