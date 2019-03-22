@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #f9f9f9 url(../img/page-bg-1.jpg);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+	border-bottom: 1px solid lightgrey;
+	background-color: #fff;
+}
+.navigation {
+ 	margin-top: 40px;
+}
+section{
+	margin-top: -20px;
+}
+.navigation .navbar {
+	float: right;
+	margin-right: 10px;
+	border-bottom: 1px dotted #a9a9a9;
+	border-top: 1px dotted #a9a9a9;
+}
+.navbar .nav > li > a {
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-shadow: none;
+	text-transform:uppercase;
+	font-size:12px;
+	padding: 13px 15px 11px;
+}
+.dropdown-toggle{
+	color: #000;
+}
+li a{
+	color: #000;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	color:#FFF;
+	background-color:#d8450b;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  	color:#FFF;
+	background-color:#d8450b;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+.dropdown-menu{
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-transform:uppercase;
+	font-size:13px;
+	padding: 10px;
+	margin: 0px;
+	background-color: #383838;
+	border: none;
+	*border-right-width: none;
+	*border-bottom-width: none;
+	-webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+	-webkit-background-clip: none;
+     -moz-background-clip: none;
+          background-clip: none;
+}
+.navbar .nav > li > .dropdown-menu:before {
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-bottom-color: none;
+}
+.dropdown-menu a {
+	color: #ababab;
+	border-bottom:1px solid #474747;
+	padding: 10px 10px;
+	margin:0px 10px;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #f9f9f9;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: none;
+  filter: none;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+.background{
+	background-image: url(../img/001.00-copy-1.jpg);
+	background-size: cover;
+	background-repeat:  no-repeat;
+	background-position: center;
+}
+header#masthead.site-header.navbar-fixed {
+position: fixed;
+z-index: 999;
+width: 100%;
+top: 0px; 
+background-color: #fff;
+}
+.tinggi_logo{
+	height: 100px;
+}
+.navigation2{
+	margin-top: 28px;
+
+}
+.row2{
+	margin-top: 40px;
+}
+.fa-map-marker-alt{
+	width: 40px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 25px;
+	display: inline-block;
+	z-index: 1;
+	padding:
+}
+.margin-ttop{
+	margin-top: 30px;
+}
+.row2 input[type=text]{
+	margin-left: -40px;
+	padding-left: 40px;
+	border-radius: 0px;
+	border: 1px solid lightgrey;
+}
+.row2 .btn{
+	border-radius: 0px;
+}
+.row3{
+	margin-top: 20px;
+}
+.row4{
+	padding-left: 100px;
+	font-size: 11pt;
+}
+.row1{
+	margin-top:20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+.upload{
+	border:1px solid #b7b7b7;
+	border-radius: 50%;
+	width:250px;
+	height:250px;
+	margin:auto;
+	text-align: center;
+	padding-top: 110px;
+	color:grey;
+}
+#browse{
+	border-radius:4px;
+	border : 1px solid #d8450b;
+	background-color: #fff;
+	font-size:10pt;
+	padding: 8px 30px 8px 30px;
+	color:#d8450b;
+	margin:10px 30px 20px 50px;
+}
+#browse:hover{
+	background-color: #d8450b;
+	color:#fff;
+}
+.label{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+input[type=text]{
+	border:none;
+	border-bottom: 1px solid grey;
+	width:80%;
+	background-color: transparent;
+}
+.info{
+	font-size: 10pt;
+}
+input[type=submit]{
+	border-radius:4px;
+	border : 1px solid #d8450b;
+	background-color: #fff;
+	font-size:10pt;
+	padding: 8px 30px 8px 30px;
+	color:#d8450b;
+	margin: auto;
+	margin:20px 30px 10px 0px;
+}
+input[type=submit]:hover{
+	background-color: #d8450b;
+	color:#fff;
+}
+.copyright{
+	text-align: center;
+	margin: auto;
+}
+.row12{
+	padding: 20px 0px;
+	width: 900px;
+	margin: auto;
+	margin-top: 20px;
+}
+footer{
+	background-color: grey;
+	color: #fff;
+}
+.file{
+	margin: auto;
+}
