@@ -1,4 +1,6 @@
-<?php include "../koneksi/koneksi.php" ?>
+<?php 
+	include "../koneksi/koneksi.php";
+ ?>
 <!DOCTYPE html>
 <html>
 <head>

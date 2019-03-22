@@ -147,7 +147,7 @@
                                    <li><a href="profile.php">
                                    	My Account
                                    </a></li>
-                                   <li><a href="login.html">Logout</a></li>
+                                   <li><a href="login.php">Logout</a></li>
                                </ul>
                             </li>
                         </ul>
