@@ -1,0 +1,367 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #f9f9f9 url(../img/page-bg-1.jpg);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+	border-bottom: 1px solid lightgrey;
+	background-color: #fff;
+}
+.navigation {
+ 	margin-top: 40px;
+}
+.navigation .navbar {
+	float:right;
+	border-bottom: 1px dotted #a9a9a9;
+	border-top: 1px dotted #a9a9a9;
+}
+.navbar .nav > li > a {
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-shadow: none;
+	text-transform:uppercase;
+	font-size:12px;
+	padding: 13px 15px 11px;
+}
+.dropdown-toggle{
+	color: #000;
+}
+li a{
+	color: #000;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	color:#FFF;
+	background-color:#d8450b;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  	color:#FFF;
+	background-color:#d8450b;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+.dropdown-menu{
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	text-transform:uppercase;
+	font-size:13px;
+	padding: 10px;
+	margin: 0px;
+	background-color: #383838;
+	border: none;
+	*border-right-width: none;
+	*border-bottom-width: none;
+	-webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+	-webkit-background-clip: none;
+     -moz-background-clip: none;
+          background-clip: none;
+}
+.navbar .nav > li > .dropdown-menu:before {
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-bottom-color: none;
+}
+.dropdown-menu a {
+	color: #ababab;
+	border-bottom:1px solid #474747;
+	padding: 10px 10px;
+	margin:0px 10px;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #f9f9f9;
+  text-decoration: none;
+  background-color: #383838;
+  background-image: none;
+  filter: none;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+  display: none;
+}
+.background{
+	background-image: url(../img/001.00-copy-1.jpg);
+	background-size: cover;
+	background-repeat:  no-repeat;
+	background-position: center;
+}
+header#masthead.site-header.navbar-fixed {
+position: fixed;
+z-index: 999;
+width: 100%;
+top: 0px; 
+background-color: #fff;
+}
+.tinggi_logo{
+	height: 100px;
+}
+.navigation2{
+	margin-top: 28px;
+}
+.row2{
+	margin-top: 40px;
+}
+.fa-map-marker-alt{
+	width: 40px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 25px;
+	display: inline-block;
+	z-index: 1;
+	padding:
+}
+.margin-ttop{
+	margin-top: 30px;
+}
+.row2 input[type=text]{
+	margin-left: -40px;
+	padding-left: 40px;
+	border-radi`us: 0px;
+}
+.row2 .btn{
+	border-radius: 0px;
+}
+.row3{
+	margin-top: 40px;
+}
+.bg{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/KONTRAKAN.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bungkus-img{
+	border: 1px solid grey;
+}
+.harga{
+	position: absolute;
+	top: 34%;
+	background-color: #d8450b;
+	color: #fff;
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 5px 10px;
+}
+.caption .col-lg-6 p{
+	font-size: 13px;
+}
+.row3 .caption{
+	background-color: #fff;
+}
+.caption{
+	padding: 10px 5px 10px 10px;;
+}
+.ruang{
+	font-size: 11px;
+	padding: 5px;
+	width: 80px;
+	margin-left: 70px;
+	background-color: #edae10;
+	text-align: center;
+}
+.address{
+	color: grey;
+	font-size: 14px;
+}
+.row5 .col-lg-12 ~ .col-lg-12{
+	margin-top: 10px;
+}
+.row4 .col-md-6 img{
+	margin-top: -5px;
+}
+.bungkus-img{
+	background-color: #fff;
+}
+.fasilitas{
+	padding: 10px;
+	text-align: center;
+}
+.row7 h3{
+	text-shadow: 3px 3px black;
+	color: #fff;
+	margin-bottom: 0px;
+}
+.row7{
+	margin-top: 0px;
+	background-color: #d8450b;
+	padding: 15px;
+}
+.selengkapnya{
+	background-color: #edae10;
+	padding: 5px 10px;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.row8{
+	margin-top: 20px;
+}
+footer{
+	background-color: grey;
+	color: #fff;
+	margin-top: 0px;
+}
+.row12{
+	width: 900px;
+	margin: auto;
+}
+.copyright{
+	text-align: center;
+	margin: auto;
+	padding: 30px;
+}
+.container1{
+	background-color: #fff;
+	margin-top: -40px;
+	padding-bottom: 30px;
+}
+section .container1 .row3 .col-md-12{
+	padding: 30px 10px;
+}
+.row4 .col-md-6 label{
+	font-size: 12px;
+	color: grey;
+}
+.row4 .col-md-6 .harga-kos label{
+	background-color: #d8450b;
+	color: #fff;
+	width: 200px;
+	font-size: 17px;
+	padding: 10px 5px;
+	text-align: center;
+	float: right;
+}
+.row5{
+	margin-top: 20px;
+}
+.row5 .col-md-6 .row .col-md-12 p{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.col-md-6 .row + .row{
+	margin-top: 10px;
+}
+.hubungi{
+	width: 100%;
+	padding: 7px;
+	border: 0px;
+	background-color: #edae10;
+}
+.hubungi:hover{
+	cursor: pointer;
+	color: #fff;
+}
+.row13{
+	margin-top: 50px;
+}
+.container2{
+	padding: 40px 0px;
+}
+.container2 .row14 div{
+	background-color: #d8450b;
+	padding: 10px;
+	color: #fff;
+	margin-left: 15px;
+}
+.container2 .row14 + .row{
+	margin-top: 20px;
+}
+.container3{
+	background-color: #fff;
+	padding: 40px 0px;
+}
+.container3 .row15{
+	margin-top: 20px;
+}
+.container3 .row16{
+	margin-top: 30px;
+}
+.container4{
+	padding: 40px 0px;
+}
+.container4 .bungkus-peta h3{
+	margin-left: 15px;
+}
+.container4 .row + .row{
+	margin-top: 20px;
+}
+.hubungi1{
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 100%;
+	padding: 10px;
+	background-color: #edae10;
+	border: none;
+}
+.hubungi1:hover{
+	cursor: pointer;
+	color: #fff;
+}
+.container5{
+	margin-top: 40px;
+	background-color: #fff;
+	padding: 40px 0px;
+}
+.pembayaran{
+	background-color: #d8450b;	
+	color: #fff;
+}
+.modal{
+	margin-top: 30px;
+}
+.bca{
+	padding: 10px;
+}
+.row .col-md-9{
+	padding: 22px 0px;
+}
+.row17{
+	border: 1px solid lightgrey;
+}
+.row17:hover{
+	cursor: pointer;
+}
+.bungkus-transfer{
+	display: none;
+}
+.lanjut{
+	width: 100%;
+}
+.input-group{
+	border: 1px solid lightgrey;
+	padding: 15px;
+}
+.bukti-pembayaran{
+	display: none;
+}
+.submit{
+	width: 100%;
+}
+#harga_kamar{
+	font-size: 1rem;
+}
