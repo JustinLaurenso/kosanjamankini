@@ -35,7 +35,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-5 col-md-5 logo">
-					<a href="home-pemilik.html">
+					<a href="home-pemilik.php">
 						<img src="../assets/img/kokilogo2.png" alt="" width="180" id="logo_img">
 					</a>
 				</div>
@@ -43,20 +43,20 @@
 				 <div class="navbar">
                         <ul class="nav">
                            <li class="active">
-                               <a href="home-pemilik.html">Home </b></a>
+                               <a href="home-pemilik.php">Home </b></a>
                            </li>
                            <li>
-                           	<a href="bukakos.html">Buka Kos</a>
+                           	<a href="bukakos.php">Buka Kos</a>
                            </li>
                             <li>
-                               <a href="filter.html">Filter</a>
+                               <a href="filter.php">Filter</a>
                             </li>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li class="dropdown">
                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Profile <b class="caret"></b></a>
                                <ul class="dropdown-menu">
-                                   <li><a href="profile-pemilik-kos.html">My Account</a></li>
-                                   <li><a href="login.html">Logout</a></li>
+                                   <li><a href="profile-pemilik-kos.php">My Account</a></li>
+                                   <li><a href="login.php">Logout</a></li>
                                </ul>
                             </li>
                         </ul>
