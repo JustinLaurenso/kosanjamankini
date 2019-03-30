@@ -48,17 +48,17 @@
 						  <div class="navbar">
                         <ul class="nav">
                            <li>
-                               <a href="home.html">Home </b></a>
+                               <a href="home.php">Home </b></a>
                            </li>
                            <li>
-                           	<a href="bukakos.html">Buka Kos</a>
+                           	<a href="bukakos.php">Buka Kos</a>
                            </li>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li class="dropdown active">
                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Profile <b class="caret"></b></a>
                                <ul class="dropdown-menu">
-                                   <li><a href="profile.html">My Account</a></li>
-                                   <li><a href="index.html">Logout</a></li>
+                                   <li><a href="profile.php">My Account</a></li>
+                                   <li><a href="index.php">Logout</a></li>
                                </ul>
                             </li>
                         </ul>
@@ -80,7 +80,7 @@
 					<div class="ruangan">
 						<p>Ruangan 1</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>
@@ -95,7 +95,7 @@
 					<div class="ruangan">
 						<p>Ruangan 2</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>
@@ -110,7 +110,7 @@
 					<div class="ruangan">
 						<p>Ruangan 3</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>
@@ -125,7 +125,7 @@
 					<div class="ruangan">
 						<p>Ruangan 4</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>
@@ -140,7 +140,7 @@
 					<div class="ruangan">
 						<p>Ruangan 5</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>
@@ -159,7 +159,7 @@
 					<div class="ruangan">
 						<p>Ruangan 6</p>
 					</div>
-					<a href="detail-ruangan.html">
+					<a href="detail-ruangan.php">
 						<div class="ruangan box1">
 							<p>DETAIL</p>
 						</div>

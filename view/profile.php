@@ -51,15 +51,15 @@
 						  <div class="navbar">
                         <ul class="nav">
                            <li>
-                               <a href="home.html">Home </b></a>
+                               <a href="home.php">Home </b></a>
                            </li>
                            <li>
-                           	<a href="bukakos.html">Buka Kos</a>
+                           	<a href="bukakos.php">Buka Kos</a>
                            </li>
                             <li>
-                               <a href="filter.html">Filter</a>
+                               <a href="filter.php">Filter</a>
                             </li>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li class="dropdown active">
                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Profile <b class="caret"></b></a>
                                <ul class="dropdown-menu">
@@ -188,8 +188,8 @@
 								<div class="col-lg-12 col-md-12 info"><b>Kost Mamank Alex</b></div>
 								<div class="col-lg-8 col-md-8 info">Jalan Imam Bonjol Gg. Tanjung Sari No. 2</div>
 								<div class="col-lg-4 col-md-4 info">
-									<a href="review.html"><button class="butsearch">Detail Kos</button></a>
-									<a href="catering.html"><button class="button_catering">Catering Tersedia</button></a>
+									<a href="review.php"><button class="butsearch">Detail Kos</button></a>
+									<a href="catering.php"><button class="button_catering">Catering Tersedia</button></a>
 								</div>
 							</div>
 						</div>		

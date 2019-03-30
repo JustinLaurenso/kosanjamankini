@@ -47,17 +47,17 @@
 					   <div class="navbar">
                         <ul class="nav">
                            <li>
-                               <a href="home.html">Home </b></a>
+                               <a href="home.php">Home </b></a>
                            </li>
                            <li class="">
-                           	<a href="bukakos.html">Buka Kos</a>
+                           	<a href="bukakos.php">Buka Kos</a>
                            </li>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li class="dropdown">
                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Profile <b class="caret"></b></a>
                                <ul class="dropdown-menu">
-                                   <li><a href="profile.html">My Account</a></li>
-                                   <li><a href="index.html">Logout</a></li>
+                                   <li><a href="profile.php">My Account</a></li>
+                                   <li><a href="index.php">Logout</a></li>
                                </ul>
                             </li>
                         </ul>
