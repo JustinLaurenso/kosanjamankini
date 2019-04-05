@@ -51,7 +51,7 @@
 
             <div class="row row3">
               <div class="col-lg-12 col-sm-12">
-                Belum punya akun?<a href="newregister.html">Daftar</a>
+                Belum punya akun?<a href="newregister.php">Daftar</a>
               </div>
             </div>            
 

@@ -140,7 +140,7 @@
                             		</div>
                             	</div>
                             </div>
-                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
                             <li class="dropdown">
                                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Profile <b class="caret"></b></a>
                                <ul class="dropdown-menu">

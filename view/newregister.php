@@ -84,7 +84,7 @@
 
             <div class="row row3">
               <div class="col-lg-12 col-sm-12">
-                Sudah punya akun?<a href="index.html">Login</a>
+                Sudah punya akun?<a href="index.php">Login</a>
               </div>
             </div>            
 
