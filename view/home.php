@@ -558,20 +558,6 @@
 
 </div>
 
-<div class="container-fluid">
-	<div class="row row9">
-	  <div class="col-lg-6">
-			<div class="pemilik-kos">
-				<h3>Gabung sebagai Pemilik Kos</h3>
-			</div>
-	  </div>
-		<div class="col-lg-6">
-			<div class="pengguna-kos">
-				<h3>Gabung sebagai Pengguna Kos</h3>
-			</div>
-		</div>
-	</div>
-</div>
 
 	<div class="container">
 		<div class="row row10">
