@@ -74,9 +74,9 @@
 				<div class="col-lg-4 col-md-4"></div>
 				<div class="col-lg-4 col-md-4">
 					<div class="row row3">
-						<div class="upload">Upload Photos</div>
+						<img src="../assets/img/no-image-icon-15.png" id="preview" alt="No Image" class="upload" style="padding-top: 0px;">
 						<div class="col-lg-12 col-md-12">
-							<input type="file" value="Browse" id="browse" name="browse" class="btn btn-md">
+							<input type="file" value="Browse" id="browse" name="browse" class="btn btn-md" onchange="tampilkanPreview(this,'preview')">
 						</div>
 					</div>
 				</div>
@@ -132,3 +132,33 @@
 </body>
 </html>
 <script src="../assets/js/review.js"></script>
+<script src="../assets/js/saveKos.js"></script>
+<script type="text/javascript">
+function tampilkanPreview(userfile,idpreview)
+{
+  var gb = userfile.files;
+  for (var i = 0; i < gb.length; i++)
+  {
+    var gbPreview = gb[i];
+    var imageType = /image.*/;
+    var preview=document.getElementById(idpreview);
+    var reader = new FileReader();
+    if (gbPreview.type.match(imageType))
+    {
+      preview.file = gbPreview;
+      reader.onload = (function(element)
+      {
+        return function(e)
+        {
+          element.src = e.target.result;
+        };
+      })(preview);
+      reader.readAsDataURL(gbPreview);
+    }
+      else
+      {
+        alert("Tipe file tidak sesuai. Gambar harus bertipe .png, .gif atau .jpg.");
+      }
+  }
+}
+</script>
