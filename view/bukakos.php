@@ -89,32 +89,33 @@
 						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
 
 						<div class="col-lg-12 col-md-12 label">Alamat Kost <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="alamat" id="alamat"></div>
 
 						<div class="col-lg-12 col-md-12 label">Jenis Kost <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="jenis" id="jenis"></div>
 
 						<div class="col-lg-12 col-md-12 label">Fasilitas <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="fasilitas" id="fasilitas"></div>
 
 						<div class="col-lg-12 col-md-12 label">Jlh Lantai <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="jlh_lantai" id="jlh_lantai"></div>
 
 						<div class="col-lg-12 col-md-12 label">Jlh Kamar <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="jlh_kamar" id="jlh_kamar"></div>
 
 						<div class="col-lg-12 col-md-12 label">Harga Kamar <font color="#d8450b">*</font></div>
-						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label"><input type="text" name="harga" id="harga"></div>
 
-						<div class="col-lg-12 col-md-12 label">Keterangan</div><div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
+						<div class="col-lg-12 col-md-12 label">Keterangan</div><div class="col-lg-12 col-md-12 label">
+							<input type="text" name="keterangan" id="keterangan"></div>
 
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="col-lg-12 col-md-12"><font color="#d8450b">*</font> Wajib diisi dan berdasarkan kebenaran</div>
 					<div class="col-lg-12 col-md-12 info">Informasi akan digunakan untuk kepentingan promosi kos Anda.</div>
-					<div class="col-lg-12 col-md-12">
-						<input type="button" name="save" id="save" value="Submit">
+					<div class="col-lg-12 col-md-12" style="margin-top: 20px;">
+						<input type="button" name="save" id="save" value="Submit" class="btn btn-danger" onclick="saveKos()">
 					</div>
 				</div>
 			</div>

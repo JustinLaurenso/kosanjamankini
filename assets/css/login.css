@@ -6,6 +6,7 @@
 }
 body{
   background-color: #dd300d;
+  overflow: hidden;
 }
 .section{
   background:rgba(255, 255, 255, 0.8);

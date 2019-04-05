@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Mar 2019 pada 05.30
+-- Waktu pembuatan: 30 Mar 2019 pada 07.04
 -- Versi server: 10.1.37-MariaDB
 -- Versi PHP: 7.3.0
 
@@ -21,6 +21,24 @@ SET time_zone = "+00:00";
 --
 -- Database: `koki`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `tbkos`
+--
+
+CREATE TABLE `tbkos` (
+  `kode_kos` int(10) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `alamat` varchar(100) NOT NULL,
+  `jenis_kos` varchar(100) NOT NULL,
+  `harga` double NOT NULL,
+  `status_ruangan` varchar(100) NOT NULL,
+  `fasilitas` text NOT NULL,
+  `jlh_kamar` int(10) NOT NULL,
+  `keterangan` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -77,6 +95,12 @@ INSERT INTO `tbuser` (`name`, `gender`, `birth`, `username`, `email`, `region`) 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indeks untuk tabel `tbkos`
+--
+ALTER TABLE `tbkos`
+  ADD PRIMARY KEY (`kode_kos`);
 
 --
 -- Indeks untuk tabel `tbregister`
