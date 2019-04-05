@@ -118,16 +118,16 @@
 	</div>
 	<div class="container-fluid">
 		<div class="row part5">
-			<div class="col-lg-3" align="middle">
+			<div class="col-lg-4" align="middle">
 				<button class="btn btn1"><img src="../assets/img/facebook.png" class="mx"> @KoKIApps</button>
 			</div>
-			<div class="col-lg-3" align="middle">
+			<!-- <div class="col-lg-4" align="middle">
 				<button class="btn btn2"><img src="../assets/img/whatsapp.png" class="mx"> 0812345678</button>
-			</div>
-			<div class="col-lg-3" align="middle">
+			</div> -->
+			<div class="col-lg-4" align="middle">
 				<button class="btn btn3"><img src="../assets/img/instagram.png" class="mx"> @KoKIApps</button>
 			</div>
-			<div class="col-lg-3" align="middle">
+			<div class="col-lg-4" align="middle">
 				<button class="btn btn4"><img src="../assets/img/gmail.png" class="mx"> KoKIApp@gmail.com</button>
 			</div>
 		</div>

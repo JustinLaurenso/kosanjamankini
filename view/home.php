@@ -203,12 +203,21 @@
 					<h3>KOST TERBARU</h3>
 			  </div>
 			</div>
-
 			<div class="row row3">
+			<?php 
+				include "../koneksi/koneksi.php";
+				$sql = "select * from tbkos";
+				$query = mysqli_query($conn,$sql);
+				while ($re = mysqli_fetch_array($query)) {
+					$kode_kos = $re['kode_kos'];
+					$image = $re['gmbr_kos'];
+					$nama = $re['nama'];
+				
+			 ?>
 				<div class="col-lg-4 col-md-4">
 					<div class="bungkus-img">
 						<div class="img">
-							<img src="../assets/img/hipwee-kosan3-750x422.jpg" alt="" width="100%">
+							<img src="<?php echo($image) ?>" alt="" width="100%">
 							<div class="harga">
 								Rp 1.200.000 / Bulan
 							</div>
@@ -259,8 +268,8 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="col-lg-4 col-md-4">
+				<?php } ?>
+				<!-- <div class="col-lg-4 col-md-4">
 					<div class="bungkus-img">
 						<div class="img">
 							<img src="../assets/img/hipwee-kamar2-750x422.jpg" alt="" width="100%">
@@ -371,10 +380,10 @@
 								</div>
 							</div>
 					</div>
-				</div>
+				</div> -->
 	</div>
 
-	<div class="row row3">
+	<!-- <div class="row row3">
 		<div class="col-lg-4 col-md-4">
 			<div class="bungkus-img">
 				<div class="img">
@@ -546,7 +555,7 @@
 			</div>
 		</div>
 </div>
-
+ -->
 <div class="row8 row">
 	<div class="col-lg-10"></div>
 	<div class="col-lg-2">
