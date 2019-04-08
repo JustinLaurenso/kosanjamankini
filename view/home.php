@@ -54,7 +54,7 @@
                                		<a data-toggle="dropdown" class="notification" href="">Notification</a>
                                <div class="dropdown-menu biasa" style="background: white; color: #000;">
                                		<div class="pesanan-header">
-										Pesanan
+																				Pesanan
                                		</div>
                                		<hr>
                                		<div class="pesanan-content">
@@ -212,20 +212,27 @@
 					$kode_kos = $re['kode_kos'];
 					$image = $re['gmbr_kos'];
 					$nama = $re['nama'];
+					$alamat  = $re['alamat'];
+					$harga = $re['harga'];
+					$jenis_kos = $re['jenis_kos'];
+					$status_ruangan = $re['status_ruangan'];
+					$fasilitas = $re['fasilitas'];
+					$jlh_kamar= $re['jlh_kamar'];
+					$keterangan = $re['keterangan'];
 				
 			 ?>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 kos" onclick="lihatKos(<?php echo "'$kode_kos'" ?>)">
 					<div class="bungkus-img">
 						<div class="img">
-							<img src="<?php echo($image) ?>" alt="" width="100%">
+							<img src="<?php echo($image) ?>" alt="" width="100%" height="192px">
 							<div class="harga">
-								Rp 1.200.000 / Bulan
+								<?php echo "Rp. " . number_format($harga,2,',','.') ?> / Bulan
 							</div>
 						</div>
 						<div class="caption">
 							<div class="row row4">
 								<div class="col-lg-6 col-md-6">
-									<p> <img src="../assets/img/1452632149_inspiration-39_icon-icons.com_51111.png" alt="" width="20"> Khusus Pria</p>
+									<p> <img src="../assets/img/1452632149_inspiration-39_icon-icons.com_51111.png" alt="" width="20"> Khusus <?php echo($jenis_kos) ?></p>
 								</div>
 								<div class="col-lg-6 col-md-6">
 										<div class="bungkus-ruang">
@@ -237,11 +244,11 @@
 							</div>
 							<div class="row row5">
 								<div class="col-lg-12 col-md-12">
-									<b>Kost Mamank Alex</b>
+									<b><?php echo $nama ?></b>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<p class="address">
-										Jalan Imam Bonjol Gg. Tanjung Sari No. 1
+										<?php echo($alamat) ?>
 									</p>
 								</div>
 							</div>
@@ -661,4 +668,5 @@
 		</div>
 	</footer>
 </body>
+<script src="../assets/js/main.js"></script>
 </html>

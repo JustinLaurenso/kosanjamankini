@@ -50,11 +50,20 @@
 		</div>
 	</header>
 	<section>
+	<?php 
+		include "../koneksi/koneksi.php";
+		$kodekos = $_GET['kode_kos'];
+		$sql = "select * from tbkos where kode_kos='$kodekos' ";
+		$query = mysqli_query($conn,$sql);
+		$re = mysqli_fetch_array($query);
+		$nama = $re['nama'];
+		$harga = $re['harga'];
+	?>
 	<div class="container1">
 		<div class="container">
 			<div class="row row3">
 				<div class="col-md-12">
-					<h2>Kost Mamank Alex</h2>
+					<h2><?php echo($nama) ?></h2>
 				</div>
 			</div>
 			<div class="row row4">
@@ -63,7 +72,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="harga-kos">
-						<label>Rp. 1,200,000 / Bulan</label>
+						<label><?php echo "Rp. " .  number_format($harga,2,',','.') ?> / Bulan</label>
 					</div>
 				</div>
 			</div>

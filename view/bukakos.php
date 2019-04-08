@@ -74,7 +74,7 @@
 				<div class="col-lg-4 col-md-4"></div>
 				<div class="col-lg-4 col-md-4">
 					<div class="row row3">
-						<img src="../assets/img/no-image-icon-15.png" id="preview" alt="No Image" class="upload" style="padding-top: 0px;">
+						<img src="../assets/img/no-image-icon-15.png" id="preview" alt="No Image" class="upload" style="padding-top: 0px;" width="100%">
 						<div class="col-lg-12 col-md-12">
 							<input type="file" value="Browse" id="browse" name="browse" class="btn btn-md" onchange="tampilkanPreview(this,'preview')">
 						</div>
@@ -85,6 +85,15 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
 					<div class="row row4">
+					<?php 
+							include "../koneksi/koneksi.php";
+							$sql = "select * from tbkos";
+							$query  = mysqli_query($conn,$sql);
+							$nums = mysqli_num_rows($query);
+							$no = $nums + 1;
+							$kodekos  = "K-$no";
+					 ?>
+						<input type="hidden" name="kodekos" id="kodekos" value="<?php echo($kodekos); ?>">
 						<div class="col-lg-12 col-md-12 label">Nama Kost <font color="#d8450b">*</font></div>
 						<div class="col-lg-12 col-md-12 label"><input type="text" name="nama" id="nama"></div>
 

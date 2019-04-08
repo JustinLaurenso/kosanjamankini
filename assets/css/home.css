@@ -359,3 +359,6 @@ background-color: #fff;
 .selesai:hover{
 	cursor: not-allowed;
 }
+.kos:hover{
+	cursor: pointer;
+}
