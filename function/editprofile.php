@@ -14,6 +14,6 @@
 		$sql1 = "update tbregister set name='$name',email='$email' where username='$user'";
 		$query = mysqli_query($conn,$sql) or die("error $sql");
 		$query1 = mysqli_query($conn,$sql1) or die("error $sql1");
-
+		header("location:profile.php");
 	}
  ?>
