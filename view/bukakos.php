@@ -115,6 +115,10 @@
 						<div class="col-lg-12 col-md-12 label">Harga Kamar <font color="#d8450b">*</font></div>
 						<div class="col-lg-12 col-md-12 label"><input type="text" name="harga" id="harga"></div>
 
+						<div class="col-lg-12 col-md-12 label">Ukuran Kamar <font color="#d8450b">*</font></div><div class="col-lg-12 col-md-12 label">
+							<input type="number" name="panjangkmr" id="panjangkmr" placeholder="Panjang(m)">
+							<input type="number" name="lebarkmr" id="lebarkmr" placeholder="Lebar(m)"></div>
+
 						<div class="col-lg-12 col-md-12 label">Keterangan</div><div class="col-lg-12 col-md-12 label">
 							<input type="text" name="keterangan" id="keterangan"></div>
 
