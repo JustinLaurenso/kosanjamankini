@@ -171,10 +171,10 @@
 					      <img src="../assets/img/001.00-copy-1.jpg" alt="Los Angeles" width="100%" height="350">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="../assets/img/001.00-copy-1.jpg" alt="Chicago" width="100%" height="350">
+					      <img src="../assets/img/images(7).jpg" alt="Chicago" width="100%" height="350">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="../assets/img/001.00-copy-1.jpg" alt="New York" width="100%" height="350">
+					      <img src="../assets/img/images(8).jpeg" alt="New York" width="100%" height="350">
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
