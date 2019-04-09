@@ -1,0 +1,78 @@
+header{
+	background-color: #dd300d;
+	height: 150px;
+}
+#image{
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 15%;
+}
+footer{
+	margin-top: 250px;
+	background-color: #dd300d;
+	height:65px;
+	padding: 25px;
+	box-sizing: border-box;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 15px;
+}
+*{
+	font-family: sans-serif;
+}
+		.head{
+			text-align: center;
+			width: 100%;
+			background-color: #114f67;
+			color: white;
+			padding : 50px 0;
+			font-size: 30px;
+			box-sizing: border-box;
+		}
+		.form{
+			border: solid 2px;
+			background-color: white;
+			display: block;
+			margin: auto;
+			color: black;
+			border-radius: 5px;
+			padding-bottom: 20px;
+			box-sizing: border-box;
+			margin-top: 40px;
+		}
+		.content{
+			margin-top: 2%;
+		}
+		p{
+			text-align: center;
+			font-size: 35px;
+		}
+		input[type=text],input[type=password]{
+			color: grey;
+			cursor: pointer;
+			display: block;
+			margin: auto;
+			width: 75%;
+			box-sizing: border-box;
+			padding: 10px 15px;
+			border: solid 2px;
+			border-radius: 5px;
+			font-size: 15px;
+		}
+
+		#id, #password, #login{
+			margin-top: 20px;
+		}
+		#login{
+			cursor: pointer;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			color: white;
+			background-color: #4286f4;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 3px;
+		}
